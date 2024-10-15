@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "smoothswapping",
   "version": "${version}",
-  "name": "Smooth Swapping",
-  "description": "Moves the items in an inventory smoothly instead of instantly",
-  "authors": ["Schauweg"],
+  "name": "Bedrock Inventory Animations",
+  "description": "Moves the items in an inventory smoothly, like in bedrock edition.",
+  "authors": ["Schauweg", "Riflusso", "1Xayd1"],
   "contact": {
-    "homepage": "https://modrinth.com/mod/smooth-swapping",
-    "sources": "https://github.com/Schauweg/Smooth-Swapping",
-    "issues": "https://github.com/Schauweg/Smooth-Swapping/issues"
+    "homepage": "https://modrinth.com/mod/bia",
+    "sources": "https://github.com/1by1Xayd/Bedrock-Inventory-Animations",
+    "issues": "https://github.com/1by1Xayd/Bedrock-Inventory-Animations/issues"
   },
   "license": "GNU LGPL 3.0",
   "icon": "assets/smoothswapping/icon.png",
@@ -23,7 +23,7 @@
     "smoothswapping-common.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": ">=0.16.1",
     "minecraft": ">=1.21"
   }
 }
